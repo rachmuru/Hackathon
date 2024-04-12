@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Hackathon",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../../images"
+		}
+	],
+	"settings": {}
+}
