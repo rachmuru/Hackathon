@@ -11,6 +11,15 @@ body {
     align-items: center;
     height: 100vh;
   }
+  .login{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 2px;
+    
+   
+  }
   .multiplex-logo{
     height: 90%;
     width: 50%;
@@ -58,27 +67,29 @@ body {
   }
   
   .btn {
-    background-color: orange;
     color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    border:solid black;
+    padding: 1px;
+    border-radius: 2px;
     cursor: pointer;
-    border-width: 2px;
-    transition: background-color 0.3s ease-in;
+    border-width: 1px;
+    background-color: lightcoral;
+   
+    
   }
   
   .btn:hover {
     background-color: lightcoral;
+    border-style: none;
   }
   /* footer*/
   footer {
-    background-color: #f4f4f4;
+    background-color: lightcoral;/* Light orange background color */
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffe6cc; /* Light orange background color */
+    
   }
   
   .left p {
@@ -92,3 +103,4 @@ body {
   .right i {
     margin-right: 5px;
   }
+ 

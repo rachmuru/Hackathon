@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+
+
+  }
+  
+  header {
+    background-color: lightcoral; /* Set the background color to light coral */
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Align the list items to the right */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: black;
+  }
+  
+  main {
+    padding: 0;
+    width: auto;
+    height: 50%;
+   
+  }
+  
+  footer {
+    background-color: lightcoral;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 95.5%;
+    bottom: 0;
+  }
+  .carousel{
+      width: 95.5%;
+      height: auto;
+  }
+
+    
+  
